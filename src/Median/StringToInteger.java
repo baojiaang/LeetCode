@@ -1,5 +1,8 @@
 package Median;
-
+/*
+* Solution: the solution is very simple, but you need care about the test case, you should ignore the white spaces first and care about
+* the "" case
+* */
 public class StringToInteger {
     public int myAtoi(String str) {
         double num=0;
