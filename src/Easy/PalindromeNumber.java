@@ -2,6 +2,7 @@ package Easy;
 
 public class PalindromeNumber {
     /*
+    Description:Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
     * Solution: compute the mod value and add result times 10, then compare whether the result is same to x
     *
     * */

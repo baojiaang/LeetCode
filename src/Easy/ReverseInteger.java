@@ -1,7 +1,7 @@
 package Easy;
 
 public class ReverseInteger {
-    /*
+    /*Description:Given a 32-bit signed integer, reverse digits of an integer.
     * My Solution:
     * compute the mod value from x and add the temp result times 10
     *
