@@ -59,10 +59,10 @@ public class Pack {
                     if(j>=w&&k<w){
                         dp[i][j][k] = Math.max(dp[i-1][j][k],dp[i-1][j-w][k]+v);
                     }
-                    if(j>=w&&k>=w){
+                    else if(j>=w&&k>=w){
                         dp[i][j][k] = Math.max(dp[i-1][j][k],Math.max(dp[i-1][j-w][k]+v,dp[i-1][j][k-w]+v));
                     }
-                    if(j<w&&k>=w){
+                    else if(j<w&&k>=w){
                         dp[i][j][k] = Math.max(dp[i-1][j][k],dp[i-1][j][k-w]+v);
                     }
                     else{
@@ -71,6 +71,12 @@ public class Pack {
                 }
             }
         }
+//        for(int i=0;i<=N;i++){
+//            for(int j=0;j<=W1;j++){
+//                for(int k=0;k<=W2;k++)
+//                    System.out.println(dp[i][j][k]);
+//            }
+//        }
         return dp[N][W1][W2];
     }
 
@@ -78,12 +84,12 @@ public class Pack {
     *  add extra dimension to record k max item that can pick
     * */
     public int Mitems(int N, int W, int[] weights,int[] values, int M){
-        int dp[][][] = new int[M+1][N+1][W+1];
+        int dp[][][] = new int[N+1][W+1][M+1];
         for (int i=1;i<=N;i++){
             int w = weights[i - 1], v = values[i - 1];
             for (int j=1;j<=W;j++){
                 for(int k=1;k<=M;k++){
-                    if(j>w){
+                    if(j>=w){
                         dp[i][j][k] = Math.max(dp[i-1][j][k],dp[i-1][j-w][k-1]+v);
                     }
                     else{
@@ -96,6 +102,13 @@ public class Pack {
     }
 
     public static void main(String[] args) {
-
+        Pack pack = new Pack();
+        int[] weights = {1,2,3,4,5,6};
+        int[] values = {1,2,3,4,5,6};
+        int N = 6;
+        int W = 20;
+        int W2 = 11;
+        int result = pack.Mitems(N,W,weights,values,5);
+        System.out.println(result);
     }
 }
