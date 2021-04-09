@@ -1,5 +1,7 @@
 package template;
 
+import java.util.HashMap;
+
 public class BinarySearch {
     int binary_search(int[] nums, int target){
         int left = 0;
@@ -11,7 +13,7 @@ public class BinarySearch {
             else if(nums[mid] > target)
                 right = mid - 1;
             else if(nums[mid] < target)
-                left = right + 1;
+                left = mid + 1;
         }
         return -1;
     }

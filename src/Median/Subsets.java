@@ -17,23 +17,42 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Subsets {
+//    public List<List<Integer>> subsets(int[] nums) {
+//        List<Integer> temp = new ArrayList<>();
+//        List<List<Integer>> res = new ArrayList<>();
+//        int maskLength = 1 << nums.length;
+//        for(int mask = 0; mask < maskLength; mask++){
+//            temp.clear();
+//            for(int i = 0; i < nums.length; i++){
+//                if((mask & (1 << i)) != 0){
+//                    temp.add(nums[i]);
+//                }
+//            }
+//            res.add(new ArrayList<>(temp));
+//        }
+//        return res;
+//    }
+
     public List<List<Integer>> subsets(int[] nums) {
-        List<Integer> temp = new ArrayList<>();
         List<List<Integer>> res = new ArrayList<>();
-        int maskLength = 1 << nums.length;
-        for(int mask = 0; mask < maskLength; mask++){
-            temp.clear();
-            for(int i = 0; i < nums.length; i++){
-                if((mask & (1 << i)) != 0){
-                    temp.add(nums[i]);
-                }
-            }
-            res.add(new ArrayList<>(temp));
-        }
+        backTrack(nums,0,new ArrayList<Integer>(),res);
+        System.out.println(res);
         return res;
+    }
+    public void backTrack(int[] nums, int start, List<Integer> temp,List<List<Integer>> res){
+        res.add(new ArrayList<Integer>(temp));
+        for(int i = start; i < nums.length; i++){
+            temp.add(nums[i]);  // 试探
+            backTrack(nums,i+1,temp,res);  // 下一步
+            temp.remove(temp.size()-1); // 撤销试探
+        }
     }
     public static void main(String[] args) {
         int i = 1;
+
+        int[] nums = {1,2};
+        Subsets s = new Subsets();
+        s.subsets(nums);
         System.out.println(i<<2);
     }
 }
