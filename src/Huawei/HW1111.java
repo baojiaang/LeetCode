@@ -1,10 +1,16 @@
 package Huawei;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class HW1111 {
     public static void main(String[] args) {
+        PriorityQueue<Integer> maxPQ = new PriorityQueue<>();
+        maxPQ.add(3);
+        maxPQ.add(2);
+        System.out.println(maxPQ.toArray()[0]);
+        System.out.println(maxPQ.toArray()[1]);
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
