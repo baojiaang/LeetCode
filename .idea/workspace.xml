@@ -25,7 +25,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5c23363-fb28-4aec-b0e0-a6af6beb6142" name="Default Changelist" comment="add leetcode solution">
-      <change afterPath="$PROJECT_DIR$/src/Median/Q863.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Q1337.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Q171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q1104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q313.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q457.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q581.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q611.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q743.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q802.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hard/Q987.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Median/Q820$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Median/Q820.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Median/Q820.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +81,9 @@
       <recent name="D:\code\LeetCode\src\Median" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q820">
-    <configuration name="LCOF53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwordToOffer.LCOF53" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SwordToOffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q1838" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q1838" />
+  <component name="RunManager" selected="Application.Q413">
+    <configuration name="Q29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q29" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -94,21 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.Q32" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q820" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q820" />
+    <configuration name="Q413" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q413" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +108,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QInterview1002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.QInterview1002" />
+    <configuration name="Q457" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q457" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Median.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q581" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q581" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Median.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q611" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q611" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q820" />
-        <item itemvalue="Application.Q32" />
-        <item itemvalue="Application.Q1838" />
-        <item itemvalue="Application.QInterview1002" />
-        <item itemvalue="Application.LCOF53" />
+        <item itemvalue="Application.Q413" />
+        <item itemvalue="Application.Q457" />
+        <item itemvalue="Application.Q611" />
+        <item itemvalue="Application.Q581" />
+        <item itemvalue="Application.Q29" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +384,24 @@
       <workItem from="1627301663166" duration="2189000" />
       <workItem from="1627346705804" duration="4176000" />
       <workItem from="1627434976131" duration="3179000" />
-      <workItem from="1627520123184" duration="609000" />
+      <workItem from="1627520123184" duration="3904000" />
+      <workItem from="1627606046841" duration="539000" />
+      <workItem from="1627606924626" duration="487000" />
+      <workItem from="1627621494932" duration="4747000" />
+      <workItem from="1627695802395" duration="2686000" />
+      <workItem from="1627710785020" duration="9000" />
+      <workItem from="1627779450360" duration="2354000" />
+      <workItem from="1627783696883" duration="37000" />
+      <workItem from="1627867254369" duration="1916000" />
+      <workItem from="1627869713198" duration="610000" />
+      <workItem from="1627951594819" duration="3468000" />
+      <workItem from="1628037953773" duration="4250000" />
+      <workItem from="1628046463632" duration="7000" />
+      <workItem from="1628123776630" duration="1708000" />
+      <workItem from="1628159994368" duration="860000" />
+      <workItem from="1628298571343" duration="4015000" />
+      <workItem from="1628469679747" duration="1114000" />
+      <workItem from="1628557302367" duration="3187000" />
     </task>
     <task id="LOCAL-00001" summary="add leetcode solution">
       <created>1605689971211</created>
@@ -500,58 +531,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="add leetcode solution" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="311" y="0" key="#Project_Structure" timestamp="1627520220374">
+    <state x="311" y="0" key="#Project_Structure" timestamp="1627520639480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="311" y="0" key="#Project_Structure/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627520220374" />
+    <state x="311" y="0" key="#Project_Structure/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627520639480" />
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1621472791856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621472791856" />
-    <state x="544" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619527330925">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="544" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1619527330925" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1625884212300">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1627621497605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1625884212300" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1627211745828">
+    <state x="740" y="274" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627621497605" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1628559883519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626423364616" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627211745828" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1627211745828">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628559883519" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1628559883519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626423364616" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627211745828" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1627211745828">
+    <state width="1877" height="347" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628559883519" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1628559883519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626423364615" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627211745828" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1627211745828">
+    <state width="1877" height="347" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628559883519" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1628559883519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626423364616" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627211745828" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1626052954745">
+    <state width="1877" height="347" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628559883519" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1628559883712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1626052954745" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1626052954745">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628559883712" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1628559883712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1626052954745" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1626052954745">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628559883712" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1628559883712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1626052954745" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1626052954745">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628559883712" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1628559883712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1626052954745" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628559883712" />
     <state x="788" y="221" key="RollbackChangesDialog" timestamp="1626139417131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -560,14 +587,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627350420616" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1627520593586">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1627520643858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627520593586" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627438279346">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627520643858" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1628298659648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627438279346" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628298659648" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,6 +606,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Median/Q413.java</url>
+          <line>3</line>
+          <properties class="Median.Q413" method="numberOfArithmeticSlices">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
