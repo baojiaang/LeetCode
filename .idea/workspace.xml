@@ -25,7 +25,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5c23363-fb28-4aec-b0e0-a6af6beb6142" name="Default Changelist" comment="add leetcode solution">
+      <change afterPath="$PROJECT_DIR$/src/Easy/Q345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Q541.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q443.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q516.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q576.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q673.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q678.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q789.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q797.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q881.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weekend/Q02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weekend/Q03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../seu/master1B/5171/as/Assignment1_codebase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../seu/master1B/5171/a3/a3_code" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -67,9 +81,9 @@
       <recent name="D:\code\LeetCode\src\Median" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q413">
-    <configuration name="Q29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q29" />
+  <component name="RunManager" selected="Application.Q673">
+    <configuration name="Q443" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q443" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q413" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q413" />
+    <configuration name="Q541" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Q541" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q650" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q650" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q457" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q457" />
+    <configuration name="Q673" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q673" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q581" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q581" />
+    <configuration name="Q678" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q678" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -116,41 +143,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q611" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q611" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Median.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q413" />
-        <item itemvalue="Application.Q457" />
-        <item itemvalue="Application.Q611" />
-        <item itemvalue="Application.Q581" />
-        <item itemvalue="Application.Q29" />
+        <item itemvalue="Application.Q673" />
+        <item itemvalue="Application.Q650" />
+        <item itemvalue="Application.Q678" />
+        <item itemvalue="Application.Q443" />
+        <item itemvalue="Application.Q541" />
       </list>
     </recent_temporary>
   </component>
@@ -388,6 +391,24 @@
       <workItem from="1628298571343" duration="4015000" />
       <workItem from="1628469679747" duration="1114000" />
       <workItem from="1628557302367" duration="3521000" />
+      <workItem from="1628729276549" duration="1419000" />
+      <workItem from="1628990178592" duration="2094000" />
+      <workItem from="1629334361893" duration="455000" />
+      <workItem from="1629421639238" duration="1418000" />
+      <workItem from="1629507339060" duration="3058000" />
+      <workItem from="1629548111706" duration="813000" />
+      <workItem from="1629594790488" duration="653000" />
+      <workItem from="1629851774766" duration="482000" />
+      <workItem from="1629938615111" duration="843000" />
+      <workItem from="1630808250516" duration="91000" />
+      <workItem from="1631407415739" duration="1604000" />
+      <workItem from="1632016836665" duration="2749000" />
+      <workItem from="1632019625144" duration="564000" />
+      <workItem from="1632097737028" duration="3509000" />
+      <workItem from="1632552563769" duration="7476000" />
+      <workItem from="1632560255209" duration="750000" />
+      <workItem from="1633649801345" duration="1000" />
+      <workItem from="1633673290180" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="add leetcode solution">
       <created>1605689971211</created>
@@ -528,50 +549,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="311" y="0" key="#Project_Structure/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627520639480" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1621472791856">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1630808340559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621472791856" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1627621497605">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1627621497605" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1628560944733">
+    <state x="740" y="274" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630808340559" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1632101345995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626423364616" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628560944733" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1628560944733">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632101345995" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1632101345995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626423364616" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628560944733" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1628560944733">
+    <state width="1877" height="347" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632101345995" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1632101345995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626423364615" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628560944733" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1628560944733">
+    <state width="1877" height="347" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632101345995" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1632101345995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626423364616" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628560944733" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1628560944734">
+    <state width="1877" height="347" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632101345995" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1632101345995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628560944734" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1628560944733">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632101345995" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1632101345995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628560944733" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1628560944733">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632101345995" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1632101345995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628560944733" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1628560944734">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632101345995" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1632101345995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1628560944734" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632101345995" />
     <state x="788" y="221" key="RollbackChangesDialog" timestamp="1626139417131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
