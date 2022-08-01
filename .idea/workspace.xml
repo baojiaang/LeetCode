@@ -25,22 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5c23363-fb28-4aec-b0e0-a6af6beb6142" name="Default Changelist" comment="add leetcode solution">
-      <change afterPath="$PROJECT_DIR$/src/Easy/Q905.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Q933.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Q937.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Q942.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Q953.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q0105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q1305.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q1823.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q417.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q433.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q442.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q449.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q462.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q513.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q515.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Median/Q713.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Q1331.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Q14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q1161.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q592.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q735.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q814.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Median/Q919.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,13 +84,13 @@
       <recent name="D:\code\LeetCode\src\Median" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q442">
-    <configuration name="Q1823" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q1823" />
+  <component name="RunManager" selected="Application.Q17">
+    <configuration name="Q1331" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Q1331" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Median.*" />
+          <option name="PATTERN" value="Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q386" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q386" />
+    <configuration name="Q17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q17" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q56" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.Q56" />
+    <configuration name="Q592" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.Q592" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q17" />
+        <item itemvalue="Application.Q1331" />
+        <item itemvalue="Application.Q592" />
         <item itemvalue="Application.Q442" />
         <item itemvalue="Application.Q433" />
-        <item itemvalue="Application.Q1823" />
-        <item itemvalue="Application.Q386" />
-        <item itemvalue="Application.Q56" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +450,20 @@
       <workItem from="1652922805578" duration="487000" />
       <workItem from="1655858840866" duration="951000" />
       <workItem from="1656030251476" duration="851000" />
-      <workItem from="1656550216588" duration="646000" />
+      <workItem from="1656550216588" duration="701000" />
+      <workItem from="1657671369298" duration="3683000" />
+      <workItem from="1658363690933" duration="2054000" />
+      <workItem from="1658626501485" duration="1150000" />
+      <workItem from="1658708850075" duration="2837000" />
+      <workItem from="1658880479824" duration="2937000" />
+      <workItem from="1658918542419" duration="661000" />
+      <workItem from="1658967886085" duration="1427000" />
+      <workItem from="1659018299797" duration="693000" />
+      <workItem from="1659055137665" duration="1714000" />
+      <workItem from="1659138890858" duration="123000" />
+      <workItem from="1659229733867" duration="408000" />
+      <workItem from="1659251679576" duration="5634000" />
+      <workItem from="1659314696448" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="add leetcode solution">
       <created>1605689971211</created>
@@ -586,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650934145070</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add leetcode solution">
+      <created>1656550998910</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656550998910</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
